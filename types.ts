@@ -34,3 +34,12 @@ export interface PresetHabit {
     name: string;
     icon: string;
 }
+
+export interface Program {
+    title: string;
+    description: string;
+    imageUrl: string;
+    duration: string;
+    level: string;
+    isPremium: boolean;
+}
